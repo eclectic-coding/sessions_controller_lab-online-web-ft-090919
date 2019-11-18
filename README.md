@@ -25,7 +25,7 @@ Our app will have two pages:
 1. Create the sessions controller.
 
    **Note:** If you use the generators to generate your controllers be sure to pass these
-   flags to avoid generating unneeded files: `rails generate controller Sessions new --no-helper --no-assets --no-controller-specs`.
+   flags to avoid generating unneeded files: `rails generate controller Sessions new --no-helper --no-assets --no-test-framework`.
 
 2. Write the `new`, `create`, and `destroy` methods.
 
